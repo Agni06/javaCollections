@@ -1,0 +1,24 @@
+public static void(String args[])
+{
+HashSet<Integer> hashset  = new HashSet<>();
+hashset.add("Pear");
+hashset.add("Apple");
+hashset.add("Orange");
+hashset.add("Papaya");
+hashset.add("Banana");
+
+
+Iterator<String> it = hashset.iterator();
+
+System.out.println("hashset conatins :");
+
+while(it.hasnext())
+{
+
+    System.out.print(it.next+ " ");
+}
+
+
+
+
+}
