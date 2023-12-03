@@ -1,0 +1,15 @@
+public static void(String args[])
+{
+HashSet<Integer> set  =  new HashSet<>();
+set.add(5);
+set.add(10);
+set.add(15);
+set.add(20);
+set.add(25);
+set.remove(15)
+
+// no duplicates 
+set.add(5);
+//any order
+
+}
