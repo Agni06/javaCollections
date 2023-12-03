@@ -1,0 +1,19 @@
+public static void(String args[])
+{
+ArrayList<Integer> al = new ArrayList<>();
+al.add(5);
+al.add(3);
+al.add(17);
+al.add(6);
+al.add(9);
+al.add(7);
+
+System.out.println("printing elements in arrayList");
+for (int item: ans)
+{
+
+
+System.out.print(item+" ");
+
+}
+}
