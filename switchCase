@@ -1,0 +1,12 @@
+String fruit = "Apple";
+switch(fruit)
+{
+case "Mango": System.out.println("sweet");
+break;
+case "Apple": System.out.println("Delicious");
+break;
+case "Orange": System.out.println("Luscious");
+break;
+default : System.out.println(""Not a fruit);
+
+}
