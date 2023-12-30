@@ -1,0 +1,20 @@
+class pair<T,S>
+{
+T a;
+S b;
+
+
+}
+class test
+{
+public static void main(String args)
+{
+
+//with generics
+pair<Integer,String> p = new pair<Integer,String>();
+p.a = 1;
+p.b = "git";
+
+
+}
+}
