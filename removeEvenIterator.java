@@ -1,15 +1,16 @@
 void removeEven(Collection<Integer> a)
   {
-
-  while(a.hasNext())
+Iterator<Integer> it = a.iterator();
+  
+  while(it.hasNext())
     {
 
-      int x = a.next();
+      int x = (int)it.next();
 
       if(x%2==0)
       {
 
-        a.remove();
+        it.remove();
         
       }
     }
